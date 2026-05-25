@@ -1,4 +1,4 @@
-# Prometheus & Grafana HA Monitoring Lab
+# Prometheus & Grafana Monitoring Lab
 
 Projekt demonstracyjny monitoringu infrastruktury i aplikacji z wykorzystaniem Prometheus, Grafana oraz Alertmanager.
 
@@ -56,7 +56,7 @@ Celem projektu było przygotowanie środowiska monitoringu typu production-ready
 ## Struktura projektu
 
 ```bash
-lesson40-prometheus-grafana-ha/
+lesson40-prometheus-grafana
 │
 ├── docker-compose.yml
 ├── README.md
@@ -156,7 +156,7 @@ Prometheus zbiera metryki z:
 
 Przykładowe joby:
 
-- `prometheus-ha`
+- `prometheus`
 - `node-exporter`
 - `cadvisor`
 - `custom-app`
